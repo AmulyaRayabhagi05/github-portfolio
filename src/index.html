@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
-    <title>Amulya Portfolio</title>
+    <title>Amulya's Portfolio</title>
 </head>
 <body>
     <nav>
@@ -15,20 +15,20 @@
                 Amulya <span>Rayabhagi</span>
             </div>
             <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Services</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" ><a href="#Home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" ><a href="#Projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" ><a href="#Skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" ><a href="#Education">Education</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" ><a href="#Contact">Contact</a></div>
         </div>
         <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
     </div>
         <div class="dropdown">
             <div class="links">
                 <a href="#">Home</a>
-                <a href="#">About</a>
+                <a href="#">Projects</a>
                 <a href="#">Skills</a>
-                <a href="#">Service</a>
+                <a href="#">Education</a>
                 <a href="#">Contact</a>
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
             </div>
@@ -37,28 +37,61 @@
     <section>
         <div class="main-container">
             <div class="image" data-aos="zoom-out" data-aos-duration="3000">
-                <img src="github-portfolio\images\girl.png" alt="image picture">
+                <img src="images/GreenGirl.png" alt="image picture">
             </div>
             <div class="content">
                 <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Amulya</span></h1>
                 <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
-                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> I meet technology with creativity, designing my imaginations through life by using web development and machine learning. In turn, I implement solutions that bridge gaps and enhance user experiences. Moreover, my experience in AI, collaborative software development, and leadership helps me push boundaries. It's this unique combination of technical skill, creative vision, and leadership that enables me to not only deliver impactful results but also to drive innovation within any team. <br><br>Hiring me means gaining a dedicated problem-solver who is committed to pushing boundaries and creating exceptional user experiences.</p> <br>
                 <div class="social-links">
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/AmulyaRayabhagi05" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a> 
+                  <!--  <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a> --> 
+                    <a href="https://www.linkedin.com/in/amulya-rayabhagi/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a> 
+                   <!-- <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a> -->
                 </div>
                 <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
-                    <button>Hire me</button>
+                    <button><a class="link" href="#Contact" >Hire me</a></button>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="Sections">
+        <h1 id="Projects" class="headers" > My Projects</h1>
+        <div class = "box"> 
+            <p class="labels">Forensic Sight</p>
+        </div>
+        <div class = "box">
+        </div>
+        <div class = "box">
+        </div>
+        <div class = "box">
+        </div>
+
+        <h1 id="Skills" class= "headers"> My Skills</h1>
+        <h1 id="Education" class= "headers"> My Education</h1>
+        <h1 id="Contact" class="headers"> Contact Me</h1>
+        <!--
+        <section id="Skills">
+            <h1>My Skills</h1>
+        </section>
+
+        <section id="Education">
+            <h1>My Education</h1>
+        </section>
+
+        <section id="Contact">
+            <h1>Contact Me</h1>
+        </section>
+        -->
+     </div>
+
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({offset:0});
     </script>
+    
     <script src="script.js"></script>
 </body>
 </html>
